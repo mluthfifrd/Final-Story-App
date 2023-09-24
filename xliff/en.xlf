@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file target-language="en" source-language="id" original="lit-localize-inputs"
+    datatype="plaintext">
+    <body>
+      <trans-unit id="hd0737f87443a52a2">
+        <source>
+          Story App adalah aplikasi yang diciptakan dengan tujuan memfasilitasi pengguna untuk
+          berbagi cerita dan pengalaman mereka dengan cara yang kreatif dan berarti. Aplikasi
+          ini mendedikasikan dirinya untuk menghidupkan kisah-kisah yang tak terlupakan dan
+          mewujudkan makna dalam setiap momen. Dengan Story App, pengguna dapat membagikan
+          perjalanan hidup, pencapaian, dan bahkan kejadian sederhana yang memiliki arti
+          mendalam dalam hidup mereka. Ini adalah platform yang memungkinkan mereka untuk
+          menyimpan kenangan, berempati dengan pengalaman orang lain, dan merayakan kreativitas
+          dalam bentuk narasi visual yang beragam. Dari foto-foto indah hingga tulisan
+          inspirasional, Story App menghadirkan sebuah wadah yang menyatukan orang-orang dari
+          berbagai latar belakang, menjadikan setiap pengalaman berharga dan setiap cerita
+          memiliki arti. Dengan Story App, dunia kita diberi kesempatan untuk berbicara melalui
+          gambar-gambar, kata-kata, dan emosi yang menginspirasi, membantu kita merangkul
+          keindahan dan makna dalam setiap langkah hidup kita.
+        </source>
+
+        <target>
+          Story App is an application created with the aim of facilitating users to share their
+          stories and experiences in a creative and meaningful way. The app It dedicates itself to
+          bringing unforgettable stories to life and making meaning in every moment. realizing the
+          meaning in every moment. With the Story App, users can share life journeys, achievements,
+          and even simple events that have deep meaning in their lives. in their lives. It is a
+          platform that allows them to store memories, empathize with others' experiences, and
+          celebrate creativity in the form of diverse visual narratives. in the form of diverse
+          visual narratives. From beautiful photos to inspirational writings inspirational writings,
+          Story App presents a platform that unites people from different backgrounds, making every
+          experience precious and backgrounds, making every experience worthwhile and every story
+          meaningful. meaningful. With the Story App, our world is given the opportunity to speak
+          through inspiring images, words and emotions, helping us embrace the beauty and meaning in
+          every step of our lives. beauty and meaning in every step of our lives.
+        </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

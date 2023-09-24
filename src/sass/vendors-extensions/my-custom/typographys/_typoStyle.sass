@@ -1,0 +1,20 @@
+@use 'typo'
+
+.main-title
+  font-family: 'Cinzel Decorative', cursive
+  transition: border-color 0.3s // Tambahkan transisi agar perubahan border warna menjadi mulus
+  border-bottom: 2px solid transparent // Atur border awal menjadi transparan atau tidak terlihat
+
+  &:hover
+    border-color: dodgerblue // Ganti warna border saat dihover
+
+.slogan
+  font-family: 'Fuggles', cursive
+  font-size: 4rem
+  font-weight: bold
+  color: dodgerblue
+  margin-top: 2rem
+  text-align: center
+
+input.form-control::placeholder
+  opacity: .4

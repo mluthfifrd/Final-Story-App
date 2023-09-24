@@ -1,0 +1,69 @@
+// Using built-in modules
+@use 'sass:map';
+
+// Custom modules
+@use '../vendors-extensions/bootstrap/components/alert' as alert;
+@use '../vendors-extensions/bootstrap/components/badge' as badge;
+@use '../vendors-extensions/bootstrap/components/navbar' as navbar;
+@use '../vendors-extensions/bootstrap/components/cards' as card;
+@use '../vendors-extensions/bootstrap/components/spinners' as spinner;
+
+// ***** BOOTSTRAP *****
+
+// Menyertakan functions Bootstrap
+@import 'bootstrap/scss/functions';
+
+// Menyertakan variables Bootstrap
+@import 'bootstrap/scss/variables';
+
+// Menerapkan/override variables Bootstrap apa pun di sini
+// 1.Navbar
+$navbar-brand-font-size: navbar.$brand-font-size;
+
+// 2.Cards
+$card-border-radius: card.$border-radius;
+$card-border-radius-sm: card.$border-radius-sm;
+$card-border-radius-lg: card.$border-radius-lg;
+
+// 3.Badge
+$badge-border-radius: badge.$border-radius;
+
+// 4.Spinner
+$spinner-width: spinner.$width;
+$spinner-height: spinner.$height;
+
+// 5.Alert
+$alert-border-radius: alert.$border-radius;
+
+// Menyertakan konfigurasi Bootstrap
+@import 'bootstrap/scss/variables-dark';
+@import 'bootstrap/scss/maps';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/root';
+
+// Menyertakan konfigurasi Bootstrap lain
+@import 'bootstrap/scss/utilities';
+@import 'bootstrap/scss/reboot';
+@import 'bootstrap/scss/type';
+@import 'bootstrap/scss/images';
+@import 'bootstrap/scss/containers';
+@import 'bootstrap/scss/grid';
+@import 'bootstrap/scss/helpers';
+@import 'bootstrap/scss/forms/validation';
+
+// Menyertakan components Bootstrap
+@import 'bootstrap/scss/nav';
+@import 'bootstrap/scss/forms';
+@import 'bootstrap/scss/navbar';
+@import 'bootstrap/scss/buttons';
+@import 'bootstrap/scss/dropdown';
+@import 'bootstrap/scss/card';
+@import 'bootstrap/scss/badge';
+@import 'bootstrap/scss/spinners';
+@import 'bootstrap/scss/alert';
+@import 'bootstrap/scss/close';
+@import 'bootstrap/scss/toasts';
+@import 'bootstrap/scss/modal';
+
+// Menyertakan utilities API untuk menghasilkan utility classes
+@import 'bootstrap/scss/utilities/api';

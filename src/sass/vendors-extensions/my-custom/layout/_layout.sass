@@ -1,0 +1,38 @@
+$sides: 12px
+
+*
+  margin: 0
+  padding: 0
+
+header
+  position: fixed
+  top: 0
+  right: 0
+  left: 0
+  z-index: 100
+
+  .nav-item
+    transition: border-color 0.3s
+    border-bottom: 2px solid transparent
+
+    &:hover
+      border-color: dodgerblue
+
+main
+  padding-top: 3.8rem
+  padding-right: $sides
+  padding-left: $sides
+  display: flex
+  flex-direction: column
+  min-height: 100vh
+
+  h1
+    margin: 0 !important
+
+  .loading
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    height: 100vh
+    z-index: 500
