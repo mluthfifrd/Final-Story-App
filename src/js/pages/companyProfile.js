@@ -20,6 +20,15 @@ class CompanyProfile extends LitElement {
     p {
       font-size: 1.2rem;
     }
+
+    .container {
+      width: 100%;
+      max-width: 1320px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
   `
 
   render() {
