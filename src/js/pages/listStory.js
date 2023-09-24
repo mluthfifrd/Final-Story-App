@@ -104,12 +104,12 @@ class ListStory extends LitElement {
             const formattedDate = new Date(story.createdAt).toLocaleDateString('id-ID', options)
 
             return html`
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-3 col-md-6">
                 <div class="card mb-4 custom-card">
                   <img
                     src="${story.photoUrl}"
                     width="300"
-                    height="200"
+                    height="300"
                     class="card-img-top"
                     alt="gambar"
                   />
