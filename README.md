@@ -1,2 +1,3 @@
-# final-story-app
- Submission Akhir di kelas Belajar Tools Front-End Web Intermediate
+# Story-App
+
+The app creates simple stories, with the addition of Lit Localization to convert to multiple languages
