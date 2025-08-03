@@ -1,7 +1,7 @@
 {
   "name": "final-stroy-app",
   "version": "1.0.0",
-  "description": "Story App",
+  "description": "Final Story App submission in Dicoding",
   "main": "index.js",
   "scripts": {
     "start": "http-server dist -p 8080",
